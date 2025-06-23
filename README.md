@@ -12,3 +12,13 @@ This project is a simple **Library Management System** built with **Node.js**, *
 
 ## 🧩 Project Structure
 
+├── controllers/
+│ └── bookController.js # Handles logic for book operations
+├── models/
+│ └── Book.js # Mongoose schema for books
+├── routes/
+│ └── bookRoutes.js # API routes for books
+├── .env # Environment variables (Mongo URI, etc.)
+├── server.js # Main application entry point
+├── package.json # Project metadata and dependencies
+
